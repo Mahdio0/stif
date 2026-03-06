@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>stif</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <div id="app" class="app">
+    <header>
+      <h1>stif</h1>
+      <p class="tagline">A tiny client-side starter app</p>
+    </header>
+
+    <section class="new-item">
+      <input id="new-item" type="text" placeholder="Add an item and press Enter" aria-label="New item">
+      <button id="add-btn">Add</button>
+    </section>
+
+    <section class="items">
+      <ul id="items" aria-live="polite"></ul>
+      <p id="empty" class="empty">No items yet</p>
+    </section>
+
+    <footer>
+      <small>stif — client-side starter (no backend)</small>
+    </footer>
+  </div>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

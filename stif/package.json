@@ -1,0 +1,11 @@
+{
+  "name": "stif",
+  "version": "0.1.0",
+  "description": "A tiny client-side starter app",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -c-1 . -p 8080"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
